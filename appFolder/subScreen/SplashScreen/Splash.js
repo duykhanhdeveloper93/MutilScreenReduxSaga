@@ -2,7 +2,8 @@ import React from "react"
 import { View, Text, ImageBackground, StyleSheet, Image } from 'react-native'
 
 
-const Screen1 = () => {
+
+const Splash = () => {
 
     var styles = StyleSheet.create({
         container: {
@@ -16,13 +17,13 @@ const Screen1 = () => {
           
             alignSelf: 'center',
             alignContent: 'center',
-        }
+        },
     });
 
     return (
         <View style={styles.container}>
             <View style={styles.centerView}>
-                <Image  resizeMode="contain" style={styles.tImageStyle} source={require('../../source/part1/TImage/img.png')} />
+                <Image  resizeMode="contain" style={styles.tImageStyle} source={require('../../source/splashScreen/TImage/img.png')} />
                 <Text style={{color: 'white', fontSize: 30}}>Tradly</Text>
             </View>
 
@@ -31,4 +32,4 @@ const Screen1 = () => {
     )
 }
 
-export default Screen1
+export default Splash

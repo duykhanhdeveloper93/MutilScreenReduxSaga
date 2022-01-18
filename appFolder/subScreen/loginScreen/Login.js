@@ -1,13 +1,12 @@
-
 import React from "react"
 import {View, Text} from 'react-native'
 
-const Screen52 = () => {
+const Login = () => {
     return (
         <View>
-            <Text>52</Text>
+            <Text>24</Text>
         </View>
     )
 }
 
-export default Screen52
+export default Login
