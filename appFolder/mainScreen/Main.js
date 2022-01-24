@@ -19,23 +19,23 @@ const Main = () => {
     return (
         <NavigationContainer>
             <Stack.Navigator>
-                <Stack.Screen name='screen1'
+                <Stack.Screen name='Splash'
+                    component={Splash}
+                    options={{ headerShown: false }} >
+                </Stack.Screen>
+                <Stack.Screen name='Introduce'
                     component={Introduce}
                     options={{ headerShown: false }} >
                 </Stack.Screen>
-                <Stack.Screen name='screen2'
-                    component={Introduce}
-                    options={{ headerShown: false }} >
-                </Stack.Screen>
-                <Stack.Screen name='screen3'
+                <Stack.Screen name='Login'
                     component={Login}
                     options={{ headerShown: false }} >
                 </Stack.Screen>
-                <Stack.Screen name='screen4'
+                <Stack.Screen name='SignIn'
                     component={SignIn}
                     options={{ headerShown: false }} >
                 </Stack.Screen>
-                <Stack.Screen name='screen51'
+                <Stack.Screen name='Verify'
                     component={Verify}
                     options={{ headerShown: false }} >
                 </Stack.Screen>
